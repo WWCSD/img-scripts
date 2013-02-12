@@ -4,6 +4,8 @@
 # Automated imaging script by Adam Rochette and Jeff Stasko #
 #############################################################
 
+###ADAM SUCKS BALLS###
+
 mount -t nfs 10.91.16.173:/pxework/work/bin /testbin -o ro  > /dev/null 2>&1
 mount -t nfs 10.91.16.82:/home/administrator/ProductInfo /computers/ProductInfo -o ro > /dev/null 2>&1
 mount -t nfs 10.91.16.82:/home/administrator/ImagePath /computers/ImagePath -o ro > /dev/null 2>&1
